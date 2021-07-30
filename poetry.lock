@@ -1,0 +1,104 @@
+[[package]]
+name = "basehash"
+version = "3.0.8"
+description = "Reversible obfuscated identifier hashes."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+name = "cbor2"
+version = "5.4.1"
+description = "Pure Python CBOR (de)serializer with extensive tag support"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.extras]
+doc = ["sphinx-rtd-theme", "sphinx-autodoc-typehints (>=1.2.0)"]
+test = ["pytest", "pytest-cov"]
+
+[[package]]
+name = "djangoapps-bases"
+version = "0.2"
+description = "A simple Django app to conduct Web-based polls."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "flunn"
+version = "1.0.0"
+description = "Simple decoder and encoder for CBOR (fork of flynn)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pysimplegui"
+version = "4.45.0"
+description = "Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 300 Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "python-baseconv"
+version = "1.2.2"
+description = "Convert numbers from base 10 integers to base X strings and back again."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "bfdfdf0e4288b0791a628e224ab32dc91ae3d22965293c73b63a344395766010"
+
+[metadata.files]
+basehash = [
+    {file = "BaseHash-3.0.8.tar.gz", hash = "sha256:b27b804b3cc4a187ee662ec9beb5c51a481fcb2e3031f8654127b528d61f46d8"},
+]
+cbor2 = [
+    {file = "cbor2-5.4.1-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:8684c6ffbd35258cb9790ef2722559f585fb971288d6f55ee5efd9ba75dcc81b"},
+    {file = "cbor2-5.4.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:986a8a9a4d3598008ece7241b746261118ef8d7c0efe7e6e9ce8b275f0421646"},
+    {file = "cbor2-5.4.1-cp36-cp36m-win_amd64.whl", hash = "sha256:e921d445575fbbe62ae68dc8ff3c6e05b341077fd24c6310c917b96fabe5e64a"},
+    {file = "cbor2-5.4.1-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:d66350d1323460e1e9dcb2f9caa591b60833623f909173b840a0891a245cad83"},
+    {file = "cbor2-5.4.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4b62aa7a95960d1c382e858c2c4cb24375cde3cae137d11875bb9a4667731011"},
+    {file = "cbor2-5.4.1-cp37-cp37m-win_amd64.whl", hash = "sha256:ba5e8065ca901ebec7ae390a183f3c13560454b6bd7dd81bf72c320e252b6461"},
+    {file = "cbor2-5.4.1-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:8ce511337cbac10ccb97093649d6597aacb648ce3198e6afe8b4931fd1cabc61"},
+    {file = "cbor2-5.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:81676dc7802029299dc168a1240cf1058c1fe5303fbc64598fe14bdb1f8bc076"},
+    {file = "cbor2-5.4.1-cp38-cp38-win_amd64.whl", hash = "sha256:6288b22cd3c0c842db2a4896473512fe83d24fa8ef4bc592d970635a2bb42e0e"},
+    {file = "cbor2-5.4.1-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:40aa7c9dc9f69c38a2f9954e0adec266b04c55ed3188dc7a0213a92a2054220e"},
+    {file = "cbor2-5.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0144ba1f44e4e36f7a8e8408eea72e1af6fc3ee42a704dacd4446307024e5231"},
+    {file = "cbor2-5.4.1-cp39-cp39-win_amd64.whl", hash = "sha256:15102b45dd8b1879b8743159af4538cbf4b3240fe3ebc4e747f6842cd7775888"},
+    {file = "cbor2-5.4.1.tar.gz", hash = "sha256:a8bf432f6cb595f50aeb8fed2a4aa3b3f7caa7f135fb57e4378eaa39242feac9"},
+]
+djangoapps-bases = [
+    {file = "djangoapps-bases-0.2.zip", hash = "sha256:00221a6aacd522edcdab2619007e1eb905481b32741aa620548aeaa5f253a8b0"},
+]
+flunn = [
+    {file = "flunn-1.0.0.tar.gz", hash = "sha256:07678da9b286415b3e8c79d7b75c48bbc30b95d2255589d2482b1b9f0dee44c3"},
+]
+pysimplegui = [
+    {file = "PySimpleGUI-4.45.0-py3-none-any.whl", hash = "sha256:22efb6927edfb11dcfa6e0888480712401a63b4dd2aecc4bdd6bd3c95f0cc6b0"},
+    {file = "PySimpleGUI-4.45.0.tar.gz", hash = "sha256:7152c7b45924b7ac8c461df8b3bfd7e163c731565b3220f20781452f45b39263"},
+]
+python-baseconv = [
+    {file = "python-baseconv-1.2.2.tar.gz", hash = "sha256:0539f8bd0464013b05ad62e0a1673f0ac9086c76b43ebf9f833053527cd9931b"},
+]
+six = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
